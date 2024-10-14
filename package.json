@@ -1,5 +1,5 @@
 {
-  "name": "playwright-homework",
+  "name": "playwright_practice",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,6 +9,12 @@
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.47.2",
-    "@types/node": "^22.7.4"
+    "@types/node": "^22.6.1",
+    "allure-commandline": "^2.30.0",
+    "allure-playwright": "^2.4.0"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "playwright": "^1.47.2"
   }
 }

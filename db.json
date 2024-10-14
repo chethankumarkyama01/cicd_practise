@@ -1,0 +1,13 @@
+{
+    "posts": [
+      { "id": "1", "title": "a chethan", "views": 10000000 },
+      { "id": "2", "title": "yogesh", "views": 2000000000 }
+    ],
+    "comments": [
+      { "id": "1", "text": "chethan", "postId": "1" },
+      { "id": "2", "text": "yogesh", "postId": "2" }
+    ],
+    "profile": {
+      "name": "typicode"
+    }
+  }

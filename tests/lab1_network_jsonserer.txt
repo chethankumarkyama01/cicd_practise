@@ -1,0 +1,12 @@
+=====================================
+link : https://github.com/typicode/json-server
+
+json-server - installation command: 
+npm install -g json-server
+
+start json server: 
+json-server --watch db.json
+or
+npx json-server db.json
+
+=====================================
