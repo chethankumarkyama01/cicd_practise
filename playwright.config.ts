@@ -55,7 +55,7 @@ export default defineConfig({
     {
       name: 'chromium',
       use: { 
-        headless : false,
+        // headless : false,
         // video : 'on',
         // screenshot : 'on',
         ...devices['Desktop Chrome'] },
@@ -64,7 +64,7 @@ export default defineConfig({
     {
       name: 'firefox',
       use: { 
-        headless : false,
+        // headless : false,
         ...devices['Desktop Firefox'] },
     },
 
