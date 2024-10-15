@@ -1,6 +1,6 @@
 import test from "playwright/test";
 
-test('dropdown select', async({page})=>{
+test('dropdown select',{tag: '@dropdowns'}, async({page})=>{
     await page.goto("https://www.magupdate.co.uk/reader-enquiry/PATI/213");
     await page.waitForTimeout(3000);
     await page.locator("#Contact_CountryCode").scrollIntoViewIfNeeded();
